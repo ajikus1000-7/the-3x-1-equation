@@ -12,10 +12,6 @@ start.onclick = function() {
 
 	for (let i = 0; input.value != 1; i++) {
 
-	if (input.value == 1) {
-		console.log('4 -> 2 -> 1...')
-	}
-
 	let isEven = function(sum) {
 		return (sum % 2 == 0) ? true : false;
 	}
